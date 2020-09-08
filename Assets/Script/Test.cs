@@ -9,7 +9,7 @@ public class Test : MonoBehaviour
     {
         int[] array = { 0, 15, 255, 4095, 65535};
 
-        for (int i = 4; i >=0 && i <= array.Length; i--)
+        for (int i = array.Length - 1; i >=0; i--)
         {
                 Debug.Log(array[i]);
         }
